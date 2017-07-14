@@ -27,7 +27,7 @@ app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var error = new Error('Not Found ');
+  var error = new Error('Link Not Found ');
   error.status = 404;
   next(error);
 });
